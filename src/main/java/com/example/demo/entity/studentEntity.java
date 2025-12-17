@@ -12,7 +12,7 @@ public class studentEntity{
     @NotBlank
     private String name;
 
-    @Email(message"Name is not Valid")
+    @Email(message="Name is not Valid")
     private String email;
 
     public void setId(long id){
