@@ -3,7 +3,7 @@ package com.example.demo.service;
 import java.util.List;
 import com.example.demo.entity.studentEntity;
 
-public interface studentService {
+public interface StudentService {
 
     List<studentEntity> getAllStudents();
 
